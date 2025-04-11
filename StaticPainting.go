@@ -33,7 +33,7 @@ func StaticPainting() {
 	// Рандомайзер
 	rand.Seed(time.Now().UnixNano())
 
-	// итерации
+	//итерации
 	for i := 0; i < points; i++ {
 		v := vertices[rand.Intn(3)]
 		current = Point{
